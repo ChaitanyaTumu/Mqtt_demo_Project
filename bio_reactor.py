@@ -28,4 +28,4 @@ def simulate_critical_temp():
     client.disconnect()
 
 if __name__ == "__main__":
-    simulate_critical_temp()
+    simulate_critical_temp() # main
