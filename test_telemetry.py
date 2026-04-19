@@ -36,7 +36,7 @@ def test_critical_temperature_routing():
     client.loop_stop()
     client.disconnect()
 
-    # --- VERIFICATION (The most important part) ---
+    # --- VERIFICATION---
     
     # Requirement 1: Did the message actually arrive?
     assert received_message is not None, "FAILED: No message received from broker!"
